@@ -27,17 +27,129 @@
     <title>React App</title>
   </head>
   <body>
+    <!--LOGIN PAGE-->
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+   <div style="padding: 50px 430px 50px 430px;">
+            <form action="action_page.php" method="post" style="width: 400px; padding: 30px 30px;">
+          
+                <div class="container">
+                  <label for="uname">Username :</label>
+                  <input type="text" name="uname" required> <br> <br>
+              
+                  <label for="psw">Password :</label>
+                  <input type="password" name="psw" required> <br> <br>
+    
+                  <div style="padding-left: 100px;">
+                    <button type="submit">Login</button> <br> <br>
+                  </div>
+                  <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                  </label>
+                  <a href="#" style="padding-left:30px;"> Forget Password?</a> <br> <br>
+                </div>
+              </form>    
+     
+    <!--items-->
+    <section class="items">
+        <div class="item">
+            <img src=images\shirt01.jpg width="100px" height="100px">
+            <h4>VEGGIES</h4>
+            <button>Buy</button>
+        </div>
+        <div class="item">
+            <img src=images\shirt0.jpg width="100px" height="100px">
+            <h4>DRY FRUITS </h4>
+            <button>Buy</button>
+        </div>
+        <div class="item">
+            <img src=images\shirt1.jpg width="100px" height="100px">
+            <h4>BREADS & MORE</h4>
+            <button>Buy</button>
+        </div>
+        <div class="item">
+            <img src=images\shirt2.jpg width="100px" height="100px">
+            <h4>DAIRY PRODUCTS</h4>
+            <button>Buy</button>
+        </div>
+        <div class="item">
+            <img src=images\shirt3.jpg width="100px" height="100px" >
+            <h4>BEVERAGES</h4>
+            <button>Buy</button>
+        </div>
+        <div class="item">
+            <img src=images\shirt4.jpg width="100px" height="100px">
+            <h4>FROZEN FOOD</h4>
+            <button>Buy</button>
+        </div>
+        <div class="item">
+            <img src=images\shirt5.jpg width="100px" height="100px">
+            <h4>BREAKFAST</h4>
+            <button>Buy</button>
+        </div>
+        <div class="item">
+            <img src=images\shirt6.jpg width="100px" height="100px">
+            <h4>PULSES</h4>
+            <button>Buy</button>
+        </div>
+        <div class="item">
+            <img src=images\shirt7.jpg width="100px" height="100px">
+            <h4>SPICES</h4>
+            <button>Buy</button>
+        </div>
+        <div class="item">
+            <img src=images\shirt8.jpg width="100px" height="100px">
+            <h4>CHACOLATES</h4>
+            <button>Buy</button>
+        </div>
+        <div class="item">
+            <img src=images\shirt9.jpg width="100px" height="100px" >
+            <h4>JUICES</h4>
+            <button>Buy</button>
+        </div>
+        <div class="item">
+            <img src=images\shirt10.jpg width="100px" height="100px">
+            <h4>SOUPS</h4>
+            <button>Buy</button>
+        </div>
+    </section>
+    <br>
+    <section class="features" id="features">
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+        <h1 >OUR FEATURES</h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <img src=images\fastdelivery.jpg >
+                <h3>DELIVERY</h3>
+                <p>We will try to deliver the order within three hours.</p>
+                <a href="fastdelivery.html"> Read More</a>
+            </div>
+            <div class="box">
+                <img src=images\organic.jpg>
+                <h3>ORGANIC</h3>
+                <p>Every product follows farm to house very organic.</p>
+                <a href="organic.html"> Read More</a>
+            </div>
+            <div class="box">
+                <img src=images\easytouse.jpg >
+                <h3>EASY TO USE</h3>
+                <p>Easy to order from your table with 24/7 customer services.</p>
+                <a href="easytouse.html"> Read More</a>
+            </div>
+        </div>
+    </section>
+     
+    <!--About product-->
+    <h1 style="text-align: center;"> ILANA</h1>
+    <h4 style="text-align: center;">Who we are and what we do!</h4>
+    <div>
+    <p> ILLANA </p>
+    </div>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    
+        </div>
+    
   </body>
 </html>
